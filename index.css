@@ -55,6 +55,11 @@
     flex-direction: row;
 }
 
+.top_hs input[type=text]
+{
+    border-radius: 3px;
+}
+
 .menu ul
 {
     list-style-type: none;
