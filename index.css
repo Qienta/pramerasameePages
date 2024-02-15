@@ -6,6 +6,123 @@
     font-family: Verdana, sans-serif;
 }
 
+/*
+[class*="col-"] 
+{
+    float: left;
+    padding: 5px;
+}*/
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.top_hs
+{
+    text-align: center;
+    
+}
+
+.top_hs input[type=text]
+{
+    border-radius: 3px;
+}
+
+.searrchButton
+{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu
+{
+    background-color: #F8F4EC;   
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu ul
+{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;    
+}
+
+.menu li
+{
+    background-color: #F3B95F;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px;
+
+
+    text-align: center;
+}
+
+
+.menu li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}  
+
+#nn
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img1
+{
+    float: left;
+    max-width: 50%;
+    height: auto;
+}
+
+.rside
+{
+    background-color: #F8F4EC;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside
+{  
+    text-align: center;
+    background-color: #F3B95F;
+    border-radius: 3px;
+    margin: 10px;
+
+    width: 50%;
+    height: auto;
+    
+}
+
+.aside details
+{
+    font-size: 15px;
+}
+
+.footer
+{
+    text-align: center;
+}
+
+.footer ul
+{
+    list-style-type: none;
+    
+}
+
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -42,111 +159,4 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-}
-/*
-[class*="col-"] 
-{
-    float: left;
-    padding: 5px;
-}*/
-
-.row
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.top_hs
-{
-    text-align: center;
-    
-}
-
-.top_hs input[type=text]
-{
-    border-radius: 3px;
-}
-
-.searrchButton
-{
-    float: right;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu
-{
-    background-color: #F8F4EC;
-
-    display: flex;
-    justify-content: center;
-      
-}
-
-.menu ul
-{
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-
-}
-
-.menu li
-{
-    background-color: #F3B95F;
-    border-radius: 3px;
-    padding: 5px;
-    margin: 10px;
-
-
-    text-align: center;
-
-    width: 50%;
-    height: auto;
-}
-
-
-.menu li a
-{
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
-}  
-
-.midcon1
-{
-    
-}
-
-#nn
-{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.img1
-{
-    float: left;
-    max-width: 50%;
-    height: auto;
-}
-
-.rside
-{
-    background-color: #F8F4EC;
-}
-
-.aside
-{
-    background-color: #F3B95F;
-    text-align: center;
-    padding: 10px;
-    border-radius: 3px;
-    margin: 10px;
-
-}
-
-.footer
-{
-    text-align: center;
 }
