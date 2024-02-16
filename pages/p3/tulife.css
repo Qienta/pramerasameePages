@@ -1,0 +1,24 @@
+.img2
+{
+    float: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.midcon1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nn
+{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#des
+{
+    text-indent: 25px;
+}
