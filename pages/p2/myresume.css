@@ -1,6 +1,32 @@
+.midcon1
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 25px;
+}
+
 .img3
 {
-    float: left;
+    
     max-width: 50%;
-    height: auto;
+    height: auto;    
+
+    margin-top: 25px;
+}
+
+#cn
+{
+    font-weight: bold;
+}
+
+.msg2 p, ol
+{
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.aside li
+{
+    padding-top: 10px;
 }

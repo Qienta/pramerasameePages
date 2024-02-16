@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 25px;
 }
 
 #nn
@@ -21,4 +23,9 @@
 #des
 {
     text-indent: 25px;
+}
+
+.aside li
+{
+    padding-top: 10px;
 }
